@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
+    #region Variables
+    private Vector3 player_velocity;
+    private CharacterController character_controller;
+    #endregion
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
+
+
 }
